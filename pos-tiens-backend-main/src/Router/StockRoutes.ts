@@ -41,5 +41,3 @@ export default (router: Router) => {
   router.get(`${stokPrefix}/top`, JWTAuthMiddleWare, handleGetTopStocks);
   router.get(`${stokPrefix}/halfprice`, JWTAuthMiddleWare, handleGetHalfPriceStocks);
 };
-
-

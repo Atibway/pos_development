@@ -287,4 +287,3 @@ export const getMonthlyProfitLossController = async (req: Request, res: Response
       .json(customPayloadResponse(false, "Internal Server Error"));
   }
 };
-

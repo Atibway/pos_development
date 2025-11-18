@@ -14,4 +14,3 @@ export const formatCurrency = (amount, currency = "UGX") => {
     minimumFractionDigits: 2,
   }).format(amount);
 };
-

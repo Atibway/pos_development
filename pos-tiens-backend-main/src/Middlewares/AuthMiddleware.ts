@@ -28,4 +28,3 @@ export const JWTAuthMiddleWare = (
     return res.status(401).json(customPayloadResponse(false, "Invalid Token"));
   }
 };
-

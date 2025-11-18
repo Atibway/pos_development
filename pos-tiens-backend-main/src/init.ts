@@ -1,4 +1,3 @@
-
 import * as readline from "readline/promises";
 import { stdin as input, stdout as output } from 'process';
 import { hashPassword } from "./Helpers/Helpers";
