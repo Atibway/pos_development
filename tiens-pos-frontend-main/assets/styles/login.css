@@ -1,0 +1,85 @@
+.loginBg {
+    border-top: 100vh solid #040829;
+    border-right: 200px solid transparent;
+  }
+  .small {
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  .small2 {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  .loginCard {
+    margin-top: 30vh;
+    margin-left: -10%;
+    width: 350px;
+  }
+  @keyframes floating {
+    0% {
+      transform: translate(0, 0px);
+    }
+  
+    50% {
+      transform: translate(0, 15px);
+    }
+  
+    100% {
+      transform: translate(0, -0px);
+    }
+  }
+  .loginPics{
+    margin-top: -75%;
+  }
+  .loginBtn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #01b763;
+    border: 1px #01b763 solid;
+  }
+  .Btn {
+    text-decoration: none;
+    color: #01b763;
+    /* background-color: #01b763; */
+    border: 1px #01b763 solid;
+    width: auto;
+  }
+  .loginBtn:hover {
+    color: #01b763;
+    background-color: #fff;
+    border: 1px #01b763 solid;
+    text-decoration: none;
+  }
+  .loginBtnSecondary {
+    text-decoration: none;
+    color: #fff;
+    background-color: #040829;
+    border: 1px #040829 solid;
+  }
+  .loginBtnSecondary:hover {
+    color: #040829;
+    background-color: #fff;
+    border: 1px #040829 solid;
+    text-decoration: none;
+  }
+  .loginBtn2 {
+    text-decoration: none;
+    color: #fff;
+    background-color: #01b763;
+    border: 1px #01b763 solid;
+    width: 200px;
+  }
+  .loginBtn2:hover {
+    color: #01b763;
+    background-color: #fff;
+    border: 1px #01b763 solid;
+    text-decoration: none;
+  }
+  .bgdiv{
+    background-color: #01b763; 
+    background-image: linear-gradient(to right, rgb(229 231 235) 75%, rgba(0,0,0,0) 75%); 
+  }

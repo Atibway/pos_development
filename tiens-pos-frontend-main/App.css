@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+    .print-full-height {
+      max-height: none !important;
+      overflow: visible !important;
+    }
+  }

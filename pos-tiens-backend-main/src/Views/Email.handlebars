@@ -1,0 +1,50 @@
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>
+      Emails
+    </title>
+    <style>
+      .container { background-color: #f5f5f5; } .upper-container {
+      background-color: #193296; width: 100%; padding: 50px; height: 100px;
+      border-radius: 5px; color: #fff; } .heading { text-align: center;
+      font-weight: bold; font-size: 32px; } .middle-container { display: flex;
+      justify-content: center; width: 50%; } .inner-middle-div { padding: 50px;
+      background-color: #fff; border-radius: 5px;
+      } .password { font-size: 30px; font-weight: bold; color: "#193296"; }
+      .inner-middle-div2 { background-color: #fe7d06; padding: 50px;
+      height: 50px; border-radius: 5px; color: #fff; } .bottom-heading {
+      text-align: center; font-weight: bold; font-size: 26px; }
+    </style>
+  </head>
+  <body>
+    <div class='container'>
+      <div class='upper-container'>
+        <h1 class='heading'>
+          School SoftSOffice
+        </h1>
+      </div>
+      <center>
+        <div class='middle-container'>
+          <div>
+            <div class='inner-middle-div'>
+              <p>
+                {{body}}
+              </p>
+              <h1 class='password'>
+                {{data}}
+              </h1>
+            </div>
+            <div class='inner-middle-div2'>
+              <h1 class='bottom-heading'>
+                Thanks for choosing Us
+              </h1>
+            </div>
+          </div>
+        </div>
+      </center>
+    </div>
+  </body>
+</html>

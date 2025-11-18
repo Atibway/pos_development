@@ -1,0 +1,37 @@
+.topAnal{
+    border: 10px solid #0d6dfd66;
+    border-left-color: #ff0000;
+    border-top-color: #ff0000;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    animation-name: floating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.topAnal2{
+    border: 10px solid #0d6dfd60;
+    border-left-color: #0d6dfd;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.topAnal3{
+    border: 10px solid #0d6dfd66;
+    border-left-color: #ff0000;
+    border-top-color: #ff0000;
+    border-bottom-color: #ff0000;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    
+}
